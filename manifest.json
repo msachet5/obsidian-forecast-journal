@@ -1,0 +1,10 @@
+{
+  "id": "forecast-journal",
+  "name": "Forecast Journal",
+  "version": "0.1.0",
+  "minAppVersion": "1.4.0",
+  "description": "Log predictions with probabilities, score them with the Brier score, see your calibration, and check whether your judgment beats a baseline.",
+  "author": "Sachet Mulimani",
+  "authorUrl": "https://github.com/msachet5",
+  "isDesktopOnly": false
+}

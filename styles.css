@@ -1,0 +1,15 @@
+.fj-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 8px; margin: 8px 0 12px; }
+.fj-card { background: var(--background-secondary); border-radius: 8px; padding: 8px 10px; }
+.fj-card b { display: block; font-size: 1.3em; }
+.fj-card span { color: var(--text-muted); font-size: 0.85em; }
+.fj-chart { max-width: 280px; margin: 8px 0; }
+.fj-reliability { width: 100%; height: auto; }
+.fj-diagonal { stroke: var(--text-faint); stroke-dasharray: 4 4; }
+.fj-axis { stroke: var(--background-modifier-border); }
+.fj-dot { fill: var(--interactive-accent); fill-opacity: 0.75; }
+.fj-label { fill: var(--text-muted); font-size: 10px; }
+.fj-table { width: 100%; font-size: 0.9em; }
+.fj-table td, .fj-table th { padding: 3px 6px; text-align: right; }
+.fj-table td:first-child, .fj-table th:first-child { text-align: left; }
+.fj-muted { color: var(--text-muted); }
+.fj-done { opacity: 0.5; }

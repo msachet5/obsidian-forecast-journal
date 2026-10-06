@@ -1,0 +1,22 @@
+{
+  "name": "obsidian-forecast-journal",
+  "version": "0.1.0",
+  "description": "Log predictions with probabilities in Obsidian, score them with the Brier score, and see whether your judgment beats your baseline.",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
+    "test": "node esbuild.test.mjs && node --test dist-test/scoring.test.mjs"
+  },
+  "keywords": ["obsidian", "forecasting", "brier score", "calibration", "predictions", "decision journal"],
+  "author": "Sachet Mulimani",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "builtin-modules": "^4.0.0",
+    "esbuild": "^0.25.0",
+    "obsidian": "latest",
+    "tslib": "^2.6.0",
+    "typescript": "^5.5.0"
+  }
+}
